@@ -1,0 +1,19 @@
+background-color: #F8F2F5;
+color: #A0005F;
+font-family: Verdana, sans-serif;
+h1, h2, h3, h4, h5, h6 {
+	color: #6115FF;
+	font-family: Georgia, sans-serif;
+}
+.greenboldtext{
+	font-size: small;
+	color: #008080;
+	font-weight: bold;
+}
+#SanJose{
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #666;
+	background: #ffffff;
+}
