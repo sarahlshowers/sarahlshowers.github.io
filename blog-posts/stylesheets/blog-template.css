@@ -1,6 +1,14 @@
 body {
 	padding: 0;
 	margin: 0;
+	font-family: Verdana, Arial, Sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #3d1f4c;
+}
+a:hover {
+	font-weight: bold;
 }
 header {
 	width: 100%;
@@ -8,10 +16,13 @@ header {
 	position: relative;
 	background-color: #3d1f4c;
 }
+header a,
+footer a {
+	color: #efefef;
+}
 nav {
 	top: 0px;
 	right: 50px;
-	font-family: Verdana, Arial, Sans-serif;
 	text-transform: lowercase;
 	color: #efefef;
 	font-size: 30px;
@@ -38,9 +49,7 @@ section{
 	background-color: #E6E6E6;
 	width: 100%;
 	margin: 0;
-	float: left;
 	padding: 30px;
-	font-family: Verdana, Arial, Sans-serif;
 }
 article {
 	width: 60%;
@@ -48,18 +57,8 @@ article {
 footer {
 	height: 30px;
 	width: 100%;
+	padding: 10px;
 	background-color: #3d1f4c;
-	font-family: Verdana, Arial, Sans-serif;
-}
-a {
-	text-decoration: none;
-	color: #efefef;
-}
-a:hover {
-	font-weight: bold;
-}
-.left {
-	float: left;
 }
 img {
 	width: 100%;
