@@ -1,0 +1,28 @@
+/* include your css here */
+
+header {
+    font-size: 35px;
+    color: red;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    text-align: right;
+}
+
+aside {
+	position: absolute;
+	float: left;
+}
+
+section {
+	float: right;
+	width: 80%;
+}
+
+body {
+	font-family: arial;
+	color: blue;
+}
+
