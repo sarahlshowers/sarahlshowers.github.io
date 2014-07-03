@@ -53,6 +53,20 @@ section{
 article {
 	width: 60%;
 }
+
+.a, .b, .c {
+    float: left;
+    height: 200px;
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
 footer {
 	height: 30px;
 	width: 100%;

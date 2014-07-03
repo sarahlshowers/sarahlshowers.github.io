@@ -1,25 +1,6 @@
-/* General Styles */
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-
- /* Large desktop */
-@media (min-width: 1200px) {
-        font-size: 18px;
-}
-
-/* Tablet */
-@media (min-width: 768px) and (max-width: 979px) {
-        font-size: 16px;
-}
-
-/* Phone */
-@media (max-width: 767px) {
-        font-size: 14px;
-}
-
-
 body {
   background-color: rgb(241, 241, 241);
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 300;
   line-height: 1.2em;
   margin: 0px auto;
@@ -67,23 +48,23 @@ h4 {
 }
 
 /* Navigation */
-.nav li {
+nav li {
   float: left;
 }
-.nav li a {
+nav li a {
   color: #fff;
   margin: 0 10px;
   padding: 5px 10px;
   text-decoration: none;
 }
-
-.nav li a:hover {
+nav li a:hover {
   color: black;
 }
 
 .jump {
   color: #565656;
-  font-size: 70px;
+  font-family: 'EntypoRegular';
+  font-size: 4.375em;
   line-height: 80px;
   position: absolute;
   text-decoration: none;
@@ -94,6 +75,9 @@ h4 {
 }
 .jump.down {
   right: 15px;
+}
+.jump:hover {
+  color: #BC2F36;
 }
 
 
@@ -224,3 +208,12 @@ footer:after {
   display: table;
   clear: both;
 }
+
+/* Smartphones (portrait) ----------- */
+@media (max-width : 320px) {
+  .woman {
+  width: 600px;
+  color: red;
+  }
+}
+
