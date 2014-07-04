@@ -1,0 +1,84 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #393939;
+}
+
+section {
+	margin-top: 50px;
+	height: 45px;
+	width: 100%;
+}
+
+p {
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	font-family: Trebuchet, Helvetica, sans-serif;
+	color: #EDEDED;
+	font-size: 20px;
+}
+
+.home {
+	margin: 110px 5px 5px;
+}
+
+.title {
+	position: relative;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #EDEDED;
+	font-size: 50px;
+}
+
+.quote p {
+	position: relative;
+	margin: 20px;
+	padding: 50px 50px 10px 50px;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #EDEDED;
+	font-size: 45px;
+}
+
+.author p {
+	position: relative;
+	margin-left: 40%;
+	font-family: Trebuchet, Helvetica, sans-serif;
+	color: #EDEDED;
+	font-size: 20px;
+}
+
+.nav {
+	position: relative;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.button {
+	border: solid 1px #EDEDED;
+	border-radius: 15px;
+	padding: 5px 40px 5px 40px;
+	margin: 50px;
+	font-family: Trebuchet, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #EDEDED;
+}
+
+.button:hover {
+	border: solid 1px #393939;
+	background-color: #EDEDED;
+	font-family: Trebuchet, Helvetica, sans-serif;
+	color: #393939;
+}
+
+/* Smartphones (portrait) ----------- */
+@media (max-width : 480px) {
+ 	p, h3 {
+ 		font-size: 0.8em !important;
+ 	}
+}
+

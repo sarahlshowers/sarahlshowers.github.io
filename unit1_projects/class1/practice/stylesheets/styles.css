@@ -4,8 +4,8 @@ body {
   font-weight: 300;
   line-height: 1.2em;
   margin: 0px auto;
-  min-width: 960px;
   width: 100%;
+  max-width: 980px;
 }
 
 p {
@@ -137,7 +137,7 @@ section section:after {
   min-height: 250px;
   margin: 1%;
   padding: 2%;
-  width: 27.33%;
+  width: 20%;
 }
 
 #famous div.break {
@@ -210,10 +210,9 @@ footer:after {
 }
 
 /* Smartphones (portrait) ----------- */
-@media (max-width : 320px) {
+@media (max-width : 600px) {
   .woman {
-  width: 600px;
+  width: 600px !important;
   color: red;
   }
-}
 
