@@ -1,78 +1,78 @@
 body {
-	padding: 0;
-	margin: 0;
-	font-family: Verdana, Arial, Sans-serif;
+	width: 100%;
+	height: 100%;
+	background-color: #EDEDED;
+	font-family: Verdana, Geneva, sans-serif;
 }
+
 a {
 	text-decoration: none;
-	color: #3d1f4c;
 }
-a:hover {
-	font-weight: bold;
-}
+
 header {
 	width: 100%;
-	height: 100px;
-	position: relative;
-	background-color: #3d1f4c;
-}
-header a,
-footer a {
-	color: #efefef;
-}
-nav {
-	top: 0px;
-	right: 50px;
-	text-transform: lowercase;
-	color: #efefef;
-	font-size: 30px;
-	position: absolute;
-}
-ul {
-	padding: 0 0 0 5px;
-	margin: 0;
-	list-style: none;
-}
-li {
-	float: right;
-	margin: 0 20px;
-	border-radius: 5px 10px;
-}
-#menu {
-	width: 320px;
-	height: 100px;
-	padding: 5px;
-	margin: 10px;
-}
-section{
-	background-color: #E6E6E6;
-	width: 100%;
-	margin: 0;
-	padding: 30px;
-}
-article {
-	width: 60%;
+	height: 80px;
+	background-color: #393939;
 }
 
-.a, .b, .c {
-    float: left;
-    height: 200px;
-    width: 30%;
-    margin: 5px;
-    padding: 5px;
+header h1 {
+	font-size: 50px;
+	padding: 10px;
+	color: #EDEDED;
 }
 
-.container {
-    width: 100%;
-    overflow: hidden;
+section {
+	width: 80%;
+	margin: 30px 100px 30px 100px;
+	padding: 10px 15px 0px 15px;
+	overflow: hidden;
+}
+
+h2 {
+	font-size: 24px;
+	padding: 10px 15px 0px 15px;
+}
+
+h3 {
+	font-size: 18px;
+	padding: 10px 15px 0px 15px;
+}
+
+h4 {
+	padding: 10px 15px 0px 15px;
+}
+
+p {
+	padding: 10px 15px 0px 15px;
+	color: #393939;
+	font-size: 15px;
+}
+
+img {
+	padding: 20px;
+	padding-left: 200px;
 }
 
 footer {
-	height: 30px;
-	width: 100%;
-	padding: 10px;
-	background-color: #3d1f4c;
-}
-img {
+	background-color: #393939;
+	position: fixed;
+	bottom: 0px;
+	height: 10%;
 	width: 100%;
 }
+
+footer a {
+	float: left;
+}
+
+footer img {
+	padding: 15px 10px;
+}
+
+/* Smartphones (portrait) ----------- */
+@media (max-width : 480px) {
+ 	p, h3 {
+ 		font-size: 0.8em !important;
+ 	}
+}
+

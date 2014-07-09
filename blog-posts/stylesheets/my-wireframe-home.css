@@ -1,78 +1,103 @@
 body {
 	width: 100%;
 	height: 100%;
+	background-color: #EDEDED;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	width: 100%;
+	height: 80px;
 	background-color: #393939;
 }
 
+header h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 50px;
+	padding: 10px;
+	color: #EDEDED;
+}
+
 section {
-	margin-top: 50px;
-	height: 45px;
-	width: 100%;
+	width: 80%;
+	margin: 30px 100px 30px 100px;
+	overflow: hidden;
+}
+
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	margin: 10px 15px 0px 15px;
+}
+
+h4 {
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 0px 15px;
+}
+
+h6 {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	padding: 0px 15px 15px 15px;
 }
 
 p {
-	margin: 5px;
-	padding: 5px;
-	text-align: center;
-	font-family: Trebuchet, Helvetica, sans-serif;
-	color: #EDEDED;
-	font-size: 20px;
-}
-
-.home {
-	margin: 110px 5px 5px;
-}
-
-.title {
-	position: relative;
-	margin: 10px;
-	padding: 10px;
-	text-align: center;
-	font-family: Verdana, Geneva, sans-serif;
-	color: #EDEDED;
-	font-size: 50px;
-}
-
-.quote p {
-	position: relative;
-	margin: 20px;
-	padding: 50px 50px 10px 50px;
-	text-align: center;
-	font-family: "Times New Roman", Times, serif;
-	font-style: italic;
-	color: #EDEDED;
-	font-size: 45px;
-}
-
-.author p {
-	position: relative;
-	margin-left: 40%;
-	font-family: Trebuchet, Helvetica, sans-serif;
-	color: #EDEDED;
-	font-size: 20px;
-}
-
-.nav {
-	position: relative;
-	text-align: center;
-	margin-top: 40px;
-}
-
-.button {
-	border: solid 1px #EDEDED;
-	border-radius: 15px;
-	padding: 5px 40px 5px 40px;
-	margin: 50px;
-	font-family: Trebuchet, Helvetica, sans-serif;
-	text-decoration: none;
-	color: #EDEDED;
-}
-
-.button:hover {
-	border: solid 1px #393939;
-	background-color: #EDEDED;
 	font-family: Trebuchet, Helvetica, sans-serif;
 	color: #393939;
+	font-size: 15px;
+	background-color: #393939;
+	color: #EDEDED;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 10px 15px
+}
+
+.blog a {
+	padding: 10px;
+	font-family: Trebuchet, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #393939;
+	font-size: 20px;
+}
+
+.blog section h2 {
+	padding: 10px 15px
+}
+
+.post-left {
+	margin-left: 60px;
+}
+
+.column {
+	width: 28%;
+	float: left;
+	padding: 1%;
+}
+
+.post {
+	background-color: #FFFFFF;
+	margin-bottom: 33px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #A5A0A0;
+}
+
+footer {
+	background-color: #393939;
+	position: fixed;
+	bottom: 0px;
+	height: 10%;
+	width: 100%;
+}
+
+footer a {
+	float: left;
+}
+
+footer img {
+	padding: 15px 10px;
 }
 
 /* Smartphones (portrait) ----------- */

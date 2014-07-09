@@ -1,69 +1,77 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" href="stylesheets/reset.css" type="text/css">
 		<link rel="stylesheet" href="stylesheets/blog-template.css" type="text/css">
 		<title>From the Wok to the Web</title>
 	</head>
 	<body>
 		<header>
 			<nav id="menu">
-				<ul>
-					<li><a href="about.html">About</a></li>
-					<li><a href="../index.html">Blog</a></li>	
-				</ul>
-			</nav>
+				<a href="../index.html"><h1>From the Wok to the Web</h1></a>
 		</header>
 		<section>
+			<h2>Unit 1, Week 2 - Technical Blog</h2>
+			<h2>Borders, and padding, and margins! Oh, my!</h2>
+			<p>07.02.14</p>
 			<article>
-				<h2>Borders, and padding, and margins! Oh, my!</h2>
-				<h4>07.02.14</h4>
-
 				<p>Let's review the box model and some tips I have picked up the past week or so.</p>
 
 				<p>Here is our box:</p>
-				<img src="images/box-model.jpg" alt="The Box Model" />
+				<img src="images/box-model.jpg" alt="The Box Model" / width="600" height="400">
 
 			<div class="container">
-				<div class="a">
-					<h3>Borders</h3>
-					<p>So, even if you can't see it because you haven't defined your border, every box STILL has a border to separate the edge of one box from another.</p>
-				</div>
-					
-				<div class="b">
-					<h3>Margins</h3>
-					<p>Around the outside of the box, is a margin. Setting the width of a margin will create a gap between the borders of two boxes.</p>
-				</div>
-
-				<div class="c">
-					<h3>Padding</h3>
-					<p>Padding is the space between the border of the box and any content inside.</p>
-				</div>
-			</div>
+				<h3>Borders</h3>
+				<p>So, even if you can't see it because you haven't defined your border, every box STILL has a border to separate the edge of one box from another.</p>
+				
+				<h3>Margins</h3>
+				<p>Around the outside of the box, is a margin. Setting the width of a margin will create a gap between the borders of two boxes.</p>
+			
+				<h3>Padding</h3>
+				<p>Padding is the space between the border of the box and any content inside.</p>
 
 				<p>I didn't realize it at first but consider this; if you want you box to be 100px high how will adding borders, margins, and padding affect the size of the over all box?</p>
 
 				<p>I have this website I'm building, with three columns I want for content. My container width is 600px and each column is 200px.</p>
 
-				<img src="images/box-model-columns.jpg" alt="This is how we want it to look" />
+				<img src="images/box-model-columns.jpg" alt="This is how we want it to look" width="600" height="400"/>
 
 				<p>Let's add a margin so that the borders of the columns aren't touching one another, say 5px and we also don't want the content to touch the border either, let's make that 5px too. Now, my content isn't fitting on my page right.</p> 
 
-				<img src="images/box-model-wrong.jpg" alt="This is wrong" />
+				<img src="images/box-model-wrong.jpg" alt="This is wrong" width="600" height="400" />
 				
 				<p>Look closer at the numbers there - I didn't factor in the margin or the padding adding additional width to the column.</p>
 
-				<img src="images/box-model-math.jpg" alt="This is the breakdown" />
+				<img src="images/box-model-math.jpg" alt="This is the breakdown" width="600" height="400" />
 
 				<p>Now our column is 240px and there are three of them, that's way over the 600px of our web page. One way to get around that and also help with responsive design (unless you are doing anything for IE) is to use percentages.</p>
 
 				<p>We could set our page width to 100% and the width of the column to say 30%. Now, if we were to refresh, everything should fit nicely on our page, just like we had planned, we still have to factor in the margin and padding.</p>
 
-				<img src="images/box-model-result.jpg" alt="How we want it to look" />
-
+				<img src="images/box-model-result.jpg" alt="How we want it to look" width="600" height="400" />
 			</article>
 		</section>
 		<footer>
-			<a href="mailto:sarahlshowers@gmail.com">sarahlshowers@gmail.com</a>
+			<div id="social">
+				<div>
+					<a href="https://twitter.com/sarahlshowers"><img title="Twitter" src="images/twitter.png" alt="Twitter" width="35" height="35" /></a>
+				</div>
+				<div>
+					<a href="https://www.facebook.com/sarahlshowers"><img title="Facebook" src="images/facebook.png" alt="Facebook" width="35" height="35" /></a> 
+				</div>
+				<div>
+					<a href="https://www.linkedin.com/pub/sarah-showers/3a/334/a86"><img title="LinkedIn" src="images/linkedin.png" alt="LinkedIn" width="35" height="35" /></a>
+				</div>
+				<div>
+					<a href="https://github.com/sarahlshowers"><img title="GitHub" src="images/github.png" alt="GitHub" width="35" height="35" /></a>
+				</div>
+				<div>
+					<a href="https://plus.google.com/u/0/114087291464529442417/posts"><img title="Google+" src="images/google.png" alt="Google+" width="35" height="35" /></a>
+				</div>
+				<div>
+					<a href="mailto:sarahlshowers@gmail.com"><img title="Email" src="images/mail.png" alt="Email" width="35" height="35" /></a>
+				</div>
+			</div>
 		</footer>
 	</body>
 </html>
