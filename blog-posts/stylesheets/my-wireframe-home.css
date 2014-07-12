@@ -35,7 +35,7 @@ h2 {
 
 h4 {
 	font-family: Verdana, Geneva, sans-serif;
-	padding: 0px 15px;
+	padding: 10px 15px 0px 15px;
 }
 
 h6 {
@@ -53,6 +53,10 @@ p {
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
 	padding: 10px 15px
+}
+
+img {
+	padding: 10px;
 }
 
 .blog a {
