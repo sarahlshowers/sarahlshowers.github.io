@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="stylesheets/reset.css" type="text/css">
+		<link rel="stylesheet" href="stylesheets/blog-template.css" type="text/css">
+		<title>From the Wok to the Web</title>
+	</head>
+	<body>
+		<header>
+			<a href="../index.html"><h1>From the Wok to the Web</h1></a>
+		</header>
+		<section>
+			<h2>Unit 2, Week 4 - Technical Blog</h2>
+			<p>07.17.14</p>
+			<article>
+				<h3>Arrays and Hashes</h3>
+				<p>First, what is an array and what is a hash?</p>
+
+				<p>An array, simply put, is a list of items, let's call them elements. You can make an array by using square brackets like this:</p>
+
+				<p>[red, yellow, green, blue]</p>
+
+				<p>You can retrieve elements from your array, you can ask how long you array is, see what the first item is... but these are just the basics.</p>
+
+				<p>So, when you create an array, it can be whatever you want, a mix of words and numbers (we call them strings and integers), thay can be in any order and you can even have duplicate elements.</p>
+
+				<p>Something interesting, each element in the array has an index value. The first element (red) is 0, the second (yellow) is 1, etc,.</p>
+
+				<p>array = ["red", "yellow", "green", "blue"]</br>
+				array[2]</br>
+				returns "green"</p>
+
+				<p>So we now know that arrays are indexed with numbers that start at 0, effectively, where is that item in the array -1.</p>
+
+				<p>A hash is a collection of key-value pairs.</p>
+
+				<p>hash = {</br>
+					first_name => "Sarah"</br>
+					last_name => "Showers"</br>
+					age => 29</br>
+				}</br>
+				</p>
+
+				<p>Values are assigned to keys using =>. First name is the key, was assigned it the value "Sarah". You can assign any Ruby object, see how age is an interger?</p>
+
+				<p>When we loop over an array, we say iterate. By using the .each method.</br>
+				array = ["red", "yellow", "green", "blue"]</br>
+				</br>
+				array.each { |a| puts "#{a}" }</br>
+				</br>
+				The result is a list of colors:</br>
+				red</br>
+				yellow</br>
+				green</br>
+				blue</br></p>
+
+				<p>The hash will look more like this:</br>
+				hash = {</br>
+					first_name => "Sarah"</br>
+					last_name => "Showers"</br>
+					age => 29</br>
+				}</br>
+				</br>
+				hash.each { |x, y| puts "#{x}: #{y}"
+				</br>
+				The result is a list of key value pairs:</br>
+				Sarah: first_name</br>
+				Showers: last_name</br>
+				29: age</p>
+
+				<p>What is the wierd stuff in curly brackets doing? Look at the array, again:</br>
+				array = ["red", "yellow", "green", "blue"]</br>
+				We tell the computer to take the array and for each element, print it to the console. We can use any placeholder for the name between the | | and puts puts each element on a new line.</br>
+				</p>
+
+				<p>For hashes we need two placeholders, one to represent each key and each value of the pair.</br>
+					hash.each { |x, y| puts "#{x}: #{y}"</br>
+				We loop through each item in the has and assign the key "x" and the value "y"</p>
+			</article>
+		</section>
+		<footer>
+			<div id="social">
+				<div>
+					<a href="https://twitter.com/sarahlshowers"><img title="Twitter" src="images/twitter.png" alt="Twitter" width="35" height="35" /></a>
+				</div>
+				<div>
+					<a href="https://www.facebook.com/sarahlshowers"><img title="Facebook" src="images/facebook.png" alt="Facebook" width="35" height="35" /></a> 
+				</div>
+				<div>
+					<a href="https://www.linkedin.com/pub/sarah-showers/3a/334/a86"><img title="LinkedIn" src="images/linkedin.png" alt="LinkedIn" width="35" height="35" /></a>
+				</div>
+				<div>
+					<a href="https://github.com/sarahlshowers"><img title="GitHub" src="images/github.png" alt="GitHub" width="35" height="35" /></a>
+				</div>
+				<div>
+					<a href="https://plus.google.com/u/0/114087291464529442417/posts"><img title="Google+" src="images/google.png" alt="Google+" width="35" height="35" /></a>
+				</div>
+				<div>
+					<a href="mailto:sarahlshowers@gmail.com"><img title="Email" src="images/mail.png" alt="Email" width="35" height="35" /></a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
