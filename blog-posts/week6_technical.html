@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="stylesheets/reset.css" type="text/css">
+		<link rel="stylesheet" href="stylesheets/blog-template.css" type="text/css">
+		<title>From the Wok to the Web</title>
+	</head>
+	<body>
+		<header>
+			<a href="../index.html"><h1>From the Wok to the Web</h1></a>
+		</header>
+		<section>
+			<h2>Unit 2, Week 6 - Technical Blog</h2>
+			<p>08.01.14</p>
+			<article>
+				<h3>Classes vs Modules</h3>
+				<p>As I only begin to get started with this book, I would like to say, thank you POODR, my new best friend for breaking this down so nicely!</p>
+
+ 				<p>"Many object-oriented languages provide a way to define a named group of methods that are independent of class and can be mixed in to any object. In Ruby, these mix-ins are called modules. Methods can be defined in a module and then the module can be added to any object. Modules thus provide a perfect way to allow objects of different classes to play a common role using a single set of code.</p>
+
+				<p><em>Metz, Sandi (2012-09-05). Practical Object-Oriented Design in Ruby: An Agile Primer (Addison-Wesley Professional Ruby Series) (Kindle Locations 4109-4112). Pearson Education. Kindle Edition. "<em></p>
+
+				<p>We already visited classes last week, but how do they compare?</p>
+
+				<p>You can think of modules as being very much like classes, only modules can't create instances and can't have subclasses. They're just used to store things. Like class names, module names are written in CapitalizedCamelCase, rather than lowercasewithunderscores. One of the main purposes of modules is to separate methods and constants into named spaces. This is called (conveniently enough) namespacing.</p>
+
+				<p>Modules are about providing methods that you can use across multiple classes. Classes are about objects; modules are about functions. Like everything, modules and classes have pros and cons. Classes are however much more natural to use for Object Oriented Programming. Let's dive in a little deeper...</p>
+
+				<p>Here's why classes are used instead of modules: You can take the above class and use it to craft many of them, millions at a time if you want, and they won't interfere with each other. With modules, when you import there is only one for the entire program unless you do some monster hacks.</p>
+			</article>
+		</section>
+		<footer>
+			<div id="social">
+				<div>
+					<a href="https://twitter.com/sarahlshowers"><img title="Twitter" src="images/twitter.png" alt="Twitter" width="35" height="35" /></a>
+				</div>
+				<div>
+					<a href="https://www.facebook.com/sarahlshowers"><img title="Facebook" src="images/facebook.png" alt="Facebook" width="35" height="35" /></a> 
+				</div>
+				<div>
+					<a href="https://www.linkedin.com/pub/sarah-showers/3a/334/a86"><img title="LinkedIn" src="images/linkedin.png" alt="LinkedIn" width="35" height="35" /></a>
+				</div>
+				<div>
+					<a href="https://github.com/sarahlshowers"><img title="GitHub" src="images/github.png" alt="GitHub" width="35" height="35" /></a>
+				</div>
+				<div>
+					<a href="https://plus.google.com/u/0/114087291464529442417/posts"><img title="Google+" src="images/google.png" alt="Google+" width="35" height="35" /></a>
+				</div>
+				<div>
+					<a href="mailto:sarahlshowers@gmail.com"><img title="Email" src="images/mail.png" alt="Email" width="35" height="35" /></a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
