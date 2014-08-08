@@ -55,6 +55,10 @@ p {
 	padding: 10px 15px
 }
 
+ol {
+	list-style-type: circle;
+}
+
 img {
 	padding: 10px;
 }
