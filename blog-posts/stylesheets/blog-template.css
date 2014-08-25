@@ -24,7 +24,7 @@ header h1 {
 
 section {
 	width: 80%;
-	margin: 0px 100px 30px 100px;
+	margin: 0 auto;
 	padding: 15px 15px 0px 15px;
 	overflow: hidden;
 	background-color: #EDEDED;
@@ -80,13 +80,37 @@ footer a {
 }
 
 footer img {
+	width: 35px;
+	height: inherit;
 	padding: 15px 10px;
 }
 
-/* Smartphones (portrait) ----------- */
-@media (max-width : 480px) {
- 	p, h3 {
- 		font-size: 0.8em !important;
+@media (max-width : 600px) {
+ 	header h1 {
+ 		font-size: 2em;
+ 	}
+ 	
+ 	h2 {
+ 		font-size: 1em;
+ 	}
+ 	
+ 	p {
+ 		font-size: 0.8em
+ 	}
+ 	
+ 	.column {
+ 		width: 100%;
+ 	}
+ 	
+ 	section img {
+ 		width: 350px;
+ 		height: auto;
+ 		padding: 1px;
+
+ 	}
+ 	
+ 	footer img {
+ 		padding: 3px
  	}
 }
 
