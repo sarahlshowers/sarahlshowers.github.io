@@ -542,7 +542,7 @@ header.band {
   background: #1f1433;
   color: white;
   text-align: center;
-  padding: 10% 0 15% 0; }
+  padding: 2% 0 6% 0; }
 
 h1, h2, h3 {
   font-family: 'PT Serif', serif;
@@ -552,8 +552,7 @@ h1, h2, h3 {
 header.band h1 {
   font-size: 3em;
   line-height: 1em;
-  margin-bottom: 1em;
-  color: #ededed; }
+  margin-bottom: 1em; }
 
 a.button {
   background: #ededed;
@@ -603,7 +602,7 @@ footer {
     padding: .75em 1.5em; } }
 #slider {
   width: 720px;
-  height: 500px;
+  height: 400px;
   overflow: hidden; }
   #slider .slides {
     display: block;
