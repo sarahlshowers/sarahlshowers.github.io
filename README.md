@@ -1,4 +1,4 @@
 sarahlshowers.github.io
 =======================
 
-My DBC Phase 0 github pages site!
+Sarah showcases some of the inital projects she has worked on with a portfolio that demonstates her sharp eye for design
