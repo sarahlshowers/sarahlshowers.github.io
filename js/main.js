@@ -27,7 +27,7 @@ $(function() {
     clearInterval(interval);
   }
 
-  $slider.on('mouseenter', stopSlider).on('mouseleave', startSlider);
+  $slides.on('mouseenter', stopSlider).on('mouseleave', startSlider);
 
   startSlider();
 
