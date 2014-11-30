@@ -15,9 +15,17 @@ header.band {
 }
 
 h1, h2, h3 {
-	font-family: 'PT Serif', serif;
+	font-family: 'PT Sans', sans-serif;
 	font-weight: 700;
 	text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited{
+
 }
 
 header.band h1{
@@ -160,6 +168,13 @@ footer {
 
     #mobile-accordion {
         display: none;
+    }
+
+    footer {
+        a {
+        float: right;
+        padding-top: 1%;
+        }
     }
 
 }

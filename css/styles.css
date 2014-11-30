@@ -545,9 +545,12 @@ header.band {
   padding: 2% 0 6% 0; }
 
 h1, h2, h3 {
-  font-family: 'PT Serif', serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   text-align: center; }
+
+a {
+  text-decoration: none; }
 
 header.band h1 {
   font-size: 3em;
@@ -661,6 +664,10 @@ footer {
     display: block; }
 
   #mobile-accordion {
-    display: none; } }
+    display: none; }
+
+  footer a {
+    float: right;
+    padding-top: 1%; } }
 
 /*# sourceMappingURL=styles.css.map */
